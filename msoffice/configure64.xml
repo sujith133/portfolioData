@@ -1,0 +1,17 @@
+<Configuration> 
+    <Add DownloadPath="http://officecdn.microsoft.com/pr/492350f6-3a01-4f97-b9c0-c7c6ddf67d60" OfficeClientEdition="64" Version="16.0.10325.20118" channel="Current" > 
+        <Product ID="ProPlus2019Retail"> 
+            <Language ID="en-US"/> 
+        </Product> 
+        <Product ID="ProjectPro2019Retail"> 
+            <Language ID="en-US"/> 
+        </Product> 
+        <Product ID="VisioPro2019Retail"> 
+            <Language ID="en-US"/> 
+        </Product> 
+    </Add> 
+    <Property Name="ForceAppsShutdown" Value="True" /> 
+    <Property Name="PinIconsToTaskbar" Value="False" /> 
+    <Display Level="Full" AcceptEula="True" /> 
+    <Updates Enabled="True" UpdatePath="http://officecdn.microsoft.com/pr/492350f6-3a01-4f97-b9c0-c7c6ddf67d60" channel="Current" /> 
+</Configuration> 
